@@ -4,7 +4,7 @@ from jinja2 import Environment, FileSystemLoader
 env = Environment(loader=FileSystemLoader('templates'))
 confd_template = env.get_template('component_subcomponent_template.cnf')
 cnf_template = env.get_template('maxscale.cnf')
-values = yaml.safe_load(open('mx-component.yml'))
+values = yaml.safe_load(open('mx-component.yaml'))
 
 for service in values["onboarded_components"]:
     file=open(service['component']+"_"+service['subcomponent']+".cnf", "w")
