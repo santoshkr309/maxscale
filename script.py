@@ -2,8 +2,8 @@ import yaml
 from jinja2 import Environment, FileSystemLoader
 
 env = Environment(loader=FileSystemLoader('templates'))
-confd_template = env.get_template('component_subcomponent_template.cnf')
-cnf_template = env.get_template('maxscale.cnf')
+confd_template = env.get_template('/tmp/maxscale/component_subcomponent_template.cnf')
+cnf_template = env.get_template('/tmp/maxscale/maxscale.cnf')
 values = yaml.safe_load(open('/tmp/maxscale/templates/mx-component.yaml'))
 
 for service in values["onboarded_components"]:
