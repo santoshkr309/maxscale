@@ -1,0 +1,9 @@
+onboarded_components:
+    - component: shipping
+      subcomponent: mysqlshipping
+      ip_address: 192.168.1.1
+      port: 1000
+    - component: qaas
+      subcomponent: mysqlqaas
+      ip_address: 192.168.1.2
+      port: 1001
