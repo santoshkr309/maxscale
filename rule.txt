@@ -1,0 +1,52 @@
+{
+  "rules": [
+    {
+        "replace"       : {"column": "mobile"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "phone"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "email_id"},
+                "with"          : { "fill": "*"}
+    },
+    {
+    	"replace"	: {"column": "email"},
+		"with"		: { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "recipient_mobile"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "landline"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "user_email"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "user_mobile"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "mobile_no"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "REGISTERED_MOBILE"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "notification_mobile"},
+                "with"          : { "fill": "*"}
+    },
+    {
+        "replace"       : {"column": "notification_email"},
+                "with"          : { "fill": "*"}
+    }
+           ]
+}
