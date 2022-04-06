@@ -22,5 +22,5 @@ protocol=MySQLBackend
 [mask-{{ component }}_{{ subcomponent }}]
 type=filter
 module=masking
-rules=/usr/local/maxscale/maskingrules_{{ component }}_{{ subcomponent }}.txt
+rules=/data/maxscale/maskingrules_{{ component }}_{{ subcomponent }}.txt
 warn_type_mismatch=always
